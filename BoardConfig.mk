@@ -15,14 +15,14 @@
 # inherit from common klte
 -include device/samsung/klte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := kltekdi,klte
+TARGET_OTA_ASSERT_DEVICE := klteau,klte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_kdi_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/kltekdi/init/init_klte.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/klteau/init/init_klte.cpp
 TARGET_UNIFIED_DEVICE := true
 
 # NFC
